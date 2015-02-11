@@ -1,0 +1,64 @@
+<script>
+
+var restaurant = function (n, i, f, s, l) {
+this.name = n;
+this.interior = i;
+this.food = f;
+this.staff = s;
+this.location = l;
+this.revenue = 0;
+
+this.reportRevenue = function() {
+  return this.name + ": " + this.revenue;
+  };
+  
+this.sales = function(){
+  var probEatOut = Math.random();
+  if ((this.interior && this.food && this.staff && this.location) > probEatOut * 9) {
+    this.revenue += 1700;
+    }
+  else if ((this.interior && this.food && this.staff && this.location) > probEatOut * 6) {
+    this.revenue += 1100;
+    }
+   else if ((this.interior && this.food && this.staff && this.location) > probEatOut * 3) {
+    this.revenue += 1100;
+    }
+  else {
+    this.revenue += 250;
+    }
+  };
+}
+
+var userName = prompt("Whats the name of your restaurant?");
+var userInterior = prompt("On a scale of 1-10, how fabulous is your restaurant's decor?");
+var userFood = prompt("On a scale of 1-10, how delicious is your restaurant's food?");
+var userStaff = prompt("On a scale of 1-10, how wonderful is your restaurant's staff?");
+var userLocation = prompt("On a scale of 1-10, how fantastic is your restaurant's location?");
+alert("Thank you! I will now project your estimate gross revenue for the next five year. Your revenue projections are compared to two other restaurants in your area.")
+
+var Annas = new restaurant ("Anna's", 4, 3, 7, 7);
+var laCasa = new restaurant ("La Casa", 3, 7, 3, 6);
+var userRestaurant = new restaurant (userName, userInterior, userFood, userStaff, userLocation);
+
+console.log(userRestaurant);
+console.log(Annas);
+console.log(laCasa);
+
+for (var x = 2015; x < 2021; x++) {
+  console.log(x + " Gross Revenue");
+      for (var i = 0; i <= 365; i++) {
+         Annas.sales();
+         laCasa.sales();
+         userRestaurant.sales();
+      };
+  console.log(" " + Annas.reportRevenue());
+  console.log(" " + laCasa.reportRevenue());
+  console.log(" " + userRestaurant.reportRevenue());
+  console.log("---------------------------------");
+  Annas.revenue = 0;
+  laCasa.revenue = 0;
+  userRestaurant.revenue = 0;
+};
+
+
+</script> 
