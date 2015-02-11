@@ -1,0 +1,39 @@
+restaurant {name: "Hannah's Pancake House", interior: "10", food: "11", staff: "134", location: "8"…}
+restaurant_revenue.html:46 restaurant {name: "Anna's", interior: 4, food: 3, staff: 7, location: 7…}
+restaurant_revenue.html:47 restaurant {name: "La Casa", interior: 3, food: 7, staff: 3, location: 6…}
+
+restaurant_revenue.html:50 2015 Gross Revenue
+restaurant_revenue.html:58  Anna's: 573000
+restaurant_revenue.html:59  La Casa: 552600
+restaurant_revenue.html:60  Hannah's Pancake House: 596400
+restaurant_revenue.html:61 ---------------------------------
+
+restaurant_revenue.html:50 2016 Gross Revenue
+restaurant_revenue.html:58  Anna's: 573000
+restaurant_revenue.html:59  La Casa: 543000
+restaurant_revenue.html:60  Hannah's Pancake House: 592200
+restaurant_revenue.html:61 ---------------------------------
+
+restaurant_revenue.html:50 2017 Gross Revenue
+restaurant_revenue.html:58  Anna's: 571800
+restaurant_revenue.html:59  La Casa: 553200
+restaurant_revenue.html:60  Hannah's Pancake House: 596400
+restaurant_revenue.html:61 ---------------------------------
+
+restaurant_revenue.html:50 2018 Gross Revenue
+restaurant_revenue.html:58  Anna's: 567000
+restaurant_revenue.html:59  La Casa: 552600
+restaurant_revenue.html:60  Hannah's Pancake House: 597600
+restaurant_revenue.html:61 ---------------------------------
+
+restaurant_revenue.html:50 2019 Gross Revenue
+restaurant_revenue.html:58  Anna's: 563400
+restaurant_revenue.html:59  La Casa: 558000
+restaurant_revenue.html:60  Hannah's Pancake House: 593400
+restaurant_revenue.html:61 ---------------------------------
+
+restaurant_revenue.html:50 2020 Gross Revenue
+restaurant_revenue.html:58  Anna's: 570600
+restaurant_revenue.html:59  La Casa: 550200
+restaurant_revenue.html:60  Hannah's Pancake House: 594000
+restaurant_revenue.html:61 ---------------------------------
